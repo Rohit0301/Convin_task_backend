@@ -1,0 +1,13 @@
+const express = require("express");
+const bodyParser = require("body-parser");
+const cors = require("cors");
+const BucketsRoute = require("./routes/BucketsRoute");
+const VideoRoute = require("./routes/VideoRoute");
+const HistoryRoute = require("./routes/HistoryRoute");
+const app = express();
+app.use(bodyParser.json());
+app.use(cors());
+app.use("/bucket", BucketsRoute);
+app.use("/video", VideoRoute);
+app.use("/history", HistoryRoute);
+app.listen(8001);
