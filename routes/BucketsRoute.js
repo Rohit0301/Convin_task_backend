@@ -4,11 +4,6 @@ const { v4: uuidv4 } = require('uuid');
 
 //data
 let buckets = [
-    { id: 1, name: "Sample Bucket 1" },
-    { id: 2, name: "Sample Bucket 2" },
-    { id: 3, name: "Sample Bucket 3" },
-    { id: 4, name: "Sample Bucket 4" },
-    { id: 5, name: "Sample Bucket 5" },
   ];
 
 

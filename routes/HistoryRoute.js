@@ -4,11 +4,6 @@ const { v4: uuidv4 } = require('uuid');
 
 //data
 let history = [
-    {
-        id: 1,
-        videoId: 1,
-        time:new Date().toLocaleString('en-US')
-      },
   ];
 
 

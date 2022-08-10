@@ -10,4 +10,4 @@ app.use(cors());
 app.use("/bucket", BucketsRoute);
 app.use("/video", VideoRoute);
 app.use("/history", HistoryRoute);
-app.listen(8001);
+app.listen(process.env.PORT || 8000);

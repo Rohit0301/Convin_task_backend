@@ -3,9 +3,7 @@ const router = express.Router();
 const { v4: uuidv4 } = require('uuid');
 
 //data
-let videos = [
-  
-  ];
+let videos = [];
 
 
  //Buckets routes 
